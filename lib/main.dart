@@ -32,6 +32,7 @@ class _LogInState extends State<LogIn> {
       appBar: AppBar(
         title: Text('Log in'),
         backgroundColor: Colors.redAccent,
+        foregroundColor: Colors.white,
         centerTitle: true,
         leading: IconButton(icon: Icon(Icons.menu), onPressed: () {}),
         actions: <Widget>[
